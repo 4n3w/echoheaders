@@ -17,3 +17,5 @@ curl -X GET ${HOSTNAME} -H "8K-Header: $HEADER8K"
 curl -X GET ${HOSTNAME} -H "16K-Header: $HEADER16K"
 curl -X GET ${HOSTNAME} -H "32K-Header: $HEADER32K"
 curl -X GET ${HOSTNAME} -H "64K-Header: $HEADER64K"
+
+#http GET ${HOSTNAME} "4K-Header: $HEADER4K" --print=h

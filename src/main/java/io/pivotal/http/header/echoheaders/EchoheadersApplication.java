@@ -31,7 +31,7 @@ public class EchoheadersApplication {
         }
 
         return ResponseEntity.ok()
-                .headers(headers)
+                .headers(null)
                 .body(body.toString());
     }
 }
